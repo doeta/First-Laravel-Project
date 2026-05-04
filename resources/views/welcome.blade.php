@@ -4,21 +4,21 @@
 @endsection
 
 @section('content')
-<h1>SanberBook</h1>
 
-<h2>Social Media Developer Santai Berkualitas</h2>
-<p>Belajar dan Berbagi agar hidup ini semakin santai berkualitas</p>
+<div class="mb-5">
+    <h1 class="mb-3">Selamat Datang di Portal Review Film</h1>
+    <p class="lead">
+        Website ini adalah platform interaktif yang didedikasikan untuk para pecinta film. Di sini, Anda dapat menelusuri berbagai daftar film berdasarkan genre, melihat informasi detail mengenai aktor dan pemain (cast), serta membaca maupun memberikan ulasan (review) dan nilai (rating) pada film-film yang telah Anda tonton.
+    </p>
+    <p>
+        Mari bergabung bersama komunitas kami dan bagikan pengalaman serta pendapat Anda mengenai film-film favorit!
+    </p>
+</div>
 
-<h3>Benefit Join di SanberBook</h3>
-<ul>
-    <li>Mendapatkan motivasi dari sesama developer</li>
-    <li>Sharing knowledge dari para mastah Sanber</li>
-    <li>Dibuat oleh calon web developer terbaik</li>
-</ul>
-
-<h3>Cara Bergabung ke SanberBook</h3>
-<ol>
-    <li>Mengunjungi Website ini</li>    <li>Mendaftar di <a href="{{ route('regis') }}">Form Sign Up</a></li>
-    <li>Selesai!</li>
-</ol>
+<div class="alert alert-info">
+    <h4>Informasi Pembuat:</h4>
+    <p class="mb-1"><strong>Nama:</strong> Duta Adi Pamungkas</p>
+    <p class="mb-1"><strong>NIM:</strong> 24060123140174</p>
+    <p class="mb-0"><em>Disusun untuk memenuhi tugas Komputasi Awan.</em></p>
+</div>
 @endsection

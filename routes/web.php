@@ -24,6 +24,9 @@ use App\Http\Controllers\ReviewController;
 
 // Perbaikan: Gunakan "Route" dengan huruf besar
 Route::get('/', [DashBoardController::class, 'utama']);
+Route::get('/contact', function () {
+    return view('contact');
+});
 Route::get('/register', [AuthController::class, 'daftar']);
 Route::post('/welcome', [AuthController::class, 'hai']);
 
